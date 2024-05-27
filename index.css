@@ -1,0 +1,87 @@
+.form-group .form-text {
+    text-align: center;
+}
+/* set width for first and last name textbox */
+.first-name-textbox{
+    width: 320px;
+}
+.last-name-textbox{
+    width: 320px;
+}
+/* set email textbox width */
+.email-textbox{
+    width: 640px;
+}
+/* set rate radio button display none and set heigth for start div*/
+.rate{
+    display: none;
+}
+.star-div{
+    height: 80px;
+}
+/* set size and color for star */
+.mr-1{
+    font-size: 2em;
+    color: #f5b301;
+}
+/* set table head text to bold */
+.satisfy{
+    font-weight: bold;
+}
+/* set table border designs */
+.table th, .table td {
+    border: 0.1px solid white;
+    border-style: solid none solid none;
+    text-align: left;
+    padding: 8px;
+}
+.row1{
+    background-color: #E0E0E0;
+}
+tr:first-child td:first-child {border-top-left-radius: 7px;}
+tr:first-child td:last-child { border-top-right-radius: 7px; }
+tr:first-child td:first-child { border-bottom-left-radius: 7px; }
+tr:first-child td:last-child { border-bottom-right-radius: 7px; }
+
+tr:last-child td:first-child { border-top-left-radius: 10px; }
+tr:last-child td:last-child { border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+.d1{
+    width: 315px;
+}
+/* set comment text to bold */
+.comment{
+    font-weight: bold;
+}
+/* set border height and width for button */
+.button{
+    height: 50px;
+    width: 80px;
+    border: 1px solid #BDBDBD;
+}
+/* radio box style */
+input[type="radio"] {
+    appearance: none;
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+input[type="radio"]:checked::after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.time-new{
+    font-family: 'Times New Roman';
+}
